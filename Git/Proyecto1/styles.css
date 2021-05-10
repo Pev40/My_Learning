@@ -16,6 +16,8 @@ footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline;
     text-align: center;
+    width: 150px;
+
 }
 input{
     padding: 5px;
