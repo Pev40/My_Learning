@@ -2,17 +2,17 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 body{
-    background-color:aqua;
+    background-color:red;
 }
 h1{
     text-align: center;
-    text-overflow: ellipsis;
-    text-shadow: 15px;
+    text-overflow:clip;
+    text-shadow: 53px;
     height: 50px;
 }
 footer{
     background-color: black;
-    color: aliceblue;
+    color: saddlebrown;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline;
     text-align: center;
