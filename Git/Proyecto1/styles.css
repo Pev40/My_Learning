@@ -6,12 +6,16 @@ body{
 }
 h1{
     text-align: center;
+    text-overflow: ellipsis;
+    text-shadow: 15px;
+    height: 50px;
 }
 footer{
     background-color: black;
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: underline;
+    text-align: center;
 }
 input{
     padding: 5px;
