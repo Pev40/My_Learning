@@ -1,8 +1,9 @@
 *{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: azure;
 }
 body{
-    background-color:aqua;
+    background-color:blue;
 }
 h1{
     text-align: center;
@@ -12,14 +13,13 @@ h1{
 }
 footer{
     background-color: black;
-    color: aliceblue;
+    color: red;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
+    text-decoration:overline;
     text-align: center;
     width: 150px;
 
 }
 input{
     padding: 5px;
-
-}
+ }
