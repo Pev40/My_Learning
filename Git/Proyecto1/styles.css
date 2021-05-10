@@ -1,32 +1,27 @@
-*{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: azure;
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: azure;
 }
-body{
-<<<<<<< HEAD
-    background-color:blue;
-=======
->>>>>>> cabecera
+body {
+  background-color: blue;
 }
-h1{
-    text-align: center;
-    text-overflow:clip;
-    text-shadow: 53px;
-    height: 50px;
+h1 {
+  text-align: center;
+  text-overflow: clip;
+  text-shadow: 53px;
+  height: 50px;
 }
-footer{
-    background-color: black;
-<<<<<<< HEAD
-    color: red;
-=======
+footer {
+  background-color: black;
 
->>>>>>> cabecera
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration:overline;
-    text-align: center;
-    width: 150px;
+  color: red;
 
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: overline;
+  text-align: center;
+  width: 150px;
 }
-input{
-    padding: 5px;
- }
+input {
+  padding: 5px;
+}
