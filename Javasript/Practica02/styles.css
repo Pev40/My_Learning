@@ -1,0 +1,11 @@
+body{
+    background-color: violet;
+    width: 500px;
+    height: 500px;
+}
+
+
+canvas{
+    padding: 30px;
+    background-color: yellow;
+}

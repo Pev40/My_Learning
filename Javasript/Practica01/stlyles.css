@@ -1,0 +1,13 @@
+body{
+    background-color: whitesmoke;
+}
+h1{
+    background-color: tomato;
+    padding: 15px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    border-radius: 15px;
+}
