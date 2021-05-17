@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Requerimientos</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <label for="nombre">
+          <span>Nombre: </span>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            autocomplete="cc-name"
+            required
+          />
+        </label>
+
+        <label for="correo">
+          <span>¿Cual es tu correo?</span>
+          <input
+            type="email"
+            name="correo"
+            id="correo"
+            autocomplete="email"
+            required
+          />
+        </label>
+
+        <label for="pais">
+          <span>¿Cual es tu pais?</span>
+          <input
+            type="text"
+            id="pais"
+            name="pais"
+            autocomplete="country"
+            required
+          />
+        </label>
+
+        <label for="cp">
+          <span>Codigo Postal</span>
+          <input
+            type="text"
+            name="cp"
+            id="cp"
+            autocomplete="postal-code"
+            required
+          />
+        </label>
+        <input type="submit" value="enviar" />
+      </form>
+    </main>
+  </body>
+</html>
