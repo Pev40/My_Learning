@@ -1,0 +1,31 @@
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0px;
+  background-color: #13a413;
+}
+.main-nav__item {
+  display: inline-block;
+}
+
+.main-nav__item a {
+  color: rgb(238, 238, 238);
+  text-decoration: none;
+  padding: 10px;
+  background-color: #141414;
+  border-radius: 6px;
+}
+
+.main-nav__item a:hover{
+    color: red;
+    
+}
+
+.main-nav__item a:active{
+    color:  greenyellow;
+}
+
+.main-nav__item a::after{
+    content: " ! ";
+}
+

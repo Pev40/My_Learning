@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head-section-nav__barra {
+  background-color: #240115;
+  width: 100%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: #240115;
+}
+
+.page-header {
+  background-color: #240115;
+}
+.title {
+  text-align: center;
+  width: 100%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #cec3c1;
+  padding: 15px;
+  size: 75px;
+  font-size: 45px;
+}
+
+.head-section-nav-ul__item {
+  display: inline-block;
+  padding: 10px;
+  width: 24.7%;
+  background-color: #de3c4b;
+  border: 15px;
+  text-align: center;
+  margin: 0;
+  border-left: 5px;
+  border-color: white;
+  list-style: none !important;
+}
+::marker {
+  font-size: 0;
+}
+
+
+.head-section-nav-ul__item a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #87f5fb;
+  list-style: none;
+}
+
+.head-section-nav-ul__item a:hover {
+  color: #2f131e;
+}
+
+.head-section-nav-ul-li-ol__categori {
+  list-style: none;
+}
+.head-section-nav-ul-li-ol__categori a {
+}
+
+main{
+    display: block;
+}
+.main-form{
+    display: block;
+    text-align: center;
+    background-color: #87f5fb;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;
+    width: 200px;
+
+}
+
+.main-form__label{
+    display: block;
+    padding: 10px;
+    color: #87f5fb;
+}
+.main-form__label span::after{
+    content: "  ";
+}

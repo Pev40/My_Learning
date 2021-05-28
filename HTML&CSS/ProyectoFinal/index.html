@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mi mercado</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <section >
+        <h1 id="page-title" class="title">Mi shop</h1>
+      </section>
+      <nav>
+        <ul class="head-section-nav__barra">
+          <li class="head-section-nav-ul__item"><a href="#">Inicio</a></li>
+          <li class="head-section-nav-ul__item">
+            <a href="#">Productos</a>
+            <ul>
+              <li class="head-section-nav-ul-li-ol__categori">
+                <a href="#">Adornos</a>
+              </li>
+              <li class="head-section-nav-ul-li-ol__categori">
+                <a href="#">Alimentos</a>
+              </li>
+              <li class="head-section-nav-ul-li-ol__categori">
+                <a href="#">Escolares</a>
+              </li>
+              <li class="head-section-nav-ul-li-ol__categori">
+                <a href="#">Tecnologia</a>
+              </li>
+            </ul>
+          </li>
+          <li class="head-section-nav-ul__item"><a href="#">Nosotros</a></li>
+          <li class="head-section-nav-ul__item"><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h2>APROXIMAMENTE</h2>
+      </div>
+      <form class="main-form" action="get">
+        <h3 class="main-form">Reguistrate para informarte mas novedades</h3>
+        <label class="main-form__label" for="name">
+          <span>Nombre: </span>
+          <input type="text" name="name" id="name" autocomplete="name" />
+        </label>
+        <label class="main-form__label" for="apellidos">
+          <span>Apellido: </span>
+          <input type="text" name="apellidos" id="apellidos" />
+        </label>
+        <label class="main-form__label" for="email">
+          <span>Correo: </span>
+          <input type="email" name="email" id="email" />
+        </label>
+        <label class="main-form__label" for="Terminos">
+          <input type="checkbox" name="Terminos" id="Terminos" />
+          <span><a href="#">Acepta los terminos y condiciones</a></span>
+        </label>
+        <input class="main-form" type="submit" value="Informame" />
+      </form>
+    </main>
+    <footer>
+        <label for="footer">&copy; Todos los derechos reservados</label>
+    </footer>
+  </body>
+</html>
