@@ -1,0 +1,21 @@
+{
+    "name": "piero/introducion_frameworks",
+    "description": "Introduccion",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Piero Vizcarra Vargas",
+            "email": "pevv2016@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}

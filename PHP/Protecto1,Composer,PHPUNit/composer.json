@@ -1,0 +1,12 @@
+{
+    "name": "piero40/40",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "authors": [
+        {
+            "name": "Piero Vizcarra Vargas",
+            "email": "pevv2016@gmail.com"
+        }
+    ]
+}
